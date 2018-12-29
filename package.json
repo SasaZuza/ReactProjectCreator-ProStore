@@ -1,0 +1,35 @@
+{
+  "name": "firebaseapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^5.7.1",
+    "moment": "^2.23.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-firebase-file-uploader": "^2.4.2",
+    "react-firebase-image-uploader": "^1.1.0",
+    "react-redux": "^5.1.1",
+    "react-redux-firebase": "^2.2.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-firestore": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

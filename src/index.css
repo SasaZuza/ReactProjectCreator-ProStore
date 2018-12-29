@@ -1,0 +1,87 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(/img/blackboad.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #95e8f3;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+form {
+  padding: 20px;
+  margin: 60px;  
+}
+
+form button, form h5 {
+  margin: 20px 0;
+}
+
+/*------------------------------------------------------------------*/
+/* Notifications styling */
+
+.card-content {
+  background-color:rgb(236, 234, 234);
+}
+
+.card-title {
+  font-style: italic;
+}
+
+/*------------------------------------------------------------------*/
+/* Navbar */
+
+.brand-logo {
+  font-style: italic;  
+}
+
+/*------------------------------------------------------------------*/
+/* ProjectSummary */
+
+.project-title{  
+  text-align: center;
+}
+
+.author, .time {
+  text-align: right;
+}
+
+/*------------------------------------------------------------------*/
+/* Create project */
+
+.create-form {
+  background-color:rgb(236, 234, 234);
+}
+
+.image-props {  
+  height: 70%h;
+  width: 90%;
+  padding-left: 9%;  
+}
+
+/*------------------------------------------------------------------*/
+/* Project Details */
+
+.card-title {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+/*------------------------------------------------------------------*/
+/* Small screens styling */
+
+@media only screen and (max-width: 720px) {
+  .logo-text {
+    font-size: 18px;
+    
+  }
+
+   
+}
